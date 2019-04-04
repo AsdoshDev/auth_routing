@@ -1,0 +1,18 @@
+{
+ "/employees": {
+ "target": "http://localhost:3000",
+ "secure": false
+ },
+ "/credentials": {
+ "target": "http://localhost:3000",
+ "secure": false
+ },
+ "/trainees": {
+ "target": "http://localhost:3000",
+ "secure": false
+ },
+ "/authToken": {
+    "target": "http://localhost:3000",
+    "secure": false
+}
+}

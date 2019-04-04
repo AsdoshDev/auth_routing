@@ -1,0 +1,15 @@
+
+<div class="welcome">Welcome {{name}} !</div>
+<nav>
+  <a routerLink="/dashboard/trainees" routerLinkActive="">My Trainees List</a>
+  <a routerLink="/dashboard/employees" routerLinkActive="">All Employees List</a>
+  <a (click) = "getErrorResponse()" >Error handling example</a>
+  <a routerLink="/login" routerLinkActive="">Log out</a>
+</nav>
+
+<div *ngIf="error" class="error">
+  Error received from the interceptor  :
+  <span>{{error?.status}}: {{error?.statusText}}</span>
+</div>
+
+<router-outlet></router-outlet>

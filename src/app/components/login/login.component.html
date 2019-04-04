@@ -1,0 +1,8 @@
+
+<div style="text-decoration:underline">LOGIN</div>
+<div class="error" *ngIf="error">Please check the username and password !</div>
+<div class="form">
+Username : <input type="text" [(ngModel)]="name">
+Password : <input type="password" [(ngModel)]="pwd">
+<button (click) = "submit()" >Submit</button>
+</div>

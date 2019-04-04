@@ -17,6 +17,11 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    
+    /* required to import json in .ts files */
+    // "resolveJsonModule": true,
+    // "esModuleInterop": true,
+    // "allowSyntheticDefaultImports": true
   }
 }

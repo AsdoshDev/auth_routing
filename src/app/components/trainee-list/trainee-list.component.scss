@@ -1,0 +1,22 @@
+
+.empDtls,.empList {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.empList li {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.active{
+    color:green;
+}
+
+ul li {
+display:flex;
+flex-direction:column;
+margin:5px;
+}
+

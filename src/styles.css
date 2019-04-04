@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+input{
+    border: none;
+    outline:none;
+    box-shadow: 0px 0px 3px #bbb;
+    display:flex;
+    flex-direction:column;
+    margin:5px;
+    padding:5px;
+ }
+ button,a{
+     background:rgb(9, 176, 241);
+     padding:5px;
+     color:white;
+     cursor:pointer;
+     border: 1px solid white;
+     outline: 2px solid rgb(9, 176, 241);
+     margin:5px;
+ }
+ button:hover,a:hover{
+     background:white;
+     color:rgb(9, 176, 241);
+     border: 1px solid rgb(9, 176, 241);
+     outline: 2px solid white;
+ }
